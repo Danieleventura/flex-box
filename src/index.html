@@ -8,6 +8,37 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <div class="toolbar" >
+    <img class="icon-box"
+      width="50"
+      src="assets/img/2.png"
+    />
+    <span>FlexBox - Básico </span>
+      <div class="spacer"></div>
+      <a id="icon-github" target="_blank" href="https://github.com/Danieleventura" title="Github">
+        <img width="30" src="assets/img/icons8-github-150.png"/>
+      </a>
+      <a id="icon-linkedin" target="_blank" href="https://www.linkedin.com/in/daniele-ventura-83b66410b" title="Linkedin">
+        <img width="30" src="assets/img/icons8-linkedin-circundado-150.png"/>
+      </a>
+  </div>
+  <div id="gambiarra"></div>
+  <div class="container">
+    <div class="vertical-menu">
+      <a href="#" class="active">Home</a>
+      <a href="/display">Display</a>
+      <a href="/flexdirection">Flex-direction</a>
+      <a href="/justifycontent">Justify-content</a>
+      <a href="/alignitems">Align-items</a>
+      <a href="/flexwrap">Flex-wrap</a>
+      <a href="/aligncontent">Align-content</a>
+      <a href="/gap">Gap, row-gap e column-gap</a>
+    </div>
+    <div class="content" >
+      <app-root></app-root>
+    </div>
+    
+  </div>
+  
 </body>
 </html>

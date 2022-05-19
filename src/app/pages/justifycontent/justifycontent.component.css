@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-left: 50px;
+}
+
+.flex-start{
+    border: 4px dotted #D3D93B;
+    width: 700px;
+    height: 120px;
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.flex-end{
+    border: 4px dotted #D3D93B;
+    width: 700px;
+    height: 120px;
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.flex-end{
+    border: 4px dotted #D3D93B;
+    width: 700px;
+    height: 120px;
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.center{
+    border: 4px dotted #D3D93B;
+    width: 700px;
+    height: 120px;
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.space-between{
+    border: 4px dotted #D3D93B;
+    width: 700px;
+    height: 120px;
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.space-around{
+    border: 4px dotted #D3D93B;
+    width: 700px;
+    height: 120px;
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+p{
+    size: 20px;
+}
+
+.exemplos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}

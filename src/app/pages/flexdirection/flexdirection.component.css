@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-left: 50px;
+}
+
+.container-box-row{
+    border: 4px dotted #D3D93B;
+    width: 700px;
+    height: 120px;
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.container-box-row-reverse{
+    border: 4px dotted #D3D93B;
+    width: 700px;
+    height: 120px;
+    display: flex;
+    margin: 10px;
+    flex-direction: row-reverse;
+}
+
+.container-box-column{
+    border: 4px dotted #D3D93B;
+    width: 120px;
+    height: 420px;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.container-box-column-reverse{
+    border: 4px dotted #D3D93B;
+    width: 120px;
+    height: 420px;
+    display: flex;
+    margin: 10px;
+    flex-direction: column-reverse;
+}
+
+
+p{
+    size: 20px;
+}
+
+.exemplos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
