@@ -13,13 +13,13 @@ import { GapComponent } from './pages/gap/gap.component';
 
 
 const routes: Routes = [
-  {path: 'display', component: DisplayComponent},
-  {path: 'flexdirection', component: FlexdirectionComponent },
-  {path: 'justifycontent', component: JustifycontentComponent  },
-  {path: 'alignitems', component: AlignitemsComponent  },
-  {path: 'flexwrap', component: FlexwrapComponent   },
-  {path: 'aligncontent', component: AligncontentComponent   },
-  {path: 'gap', component: GapComponent   }
+  {path: '/flex-box/display', component: DisplayComponent},
+  {path: '/flex-box/flexdirection', component: FlexdirectionComponent },
+  {path: '/flex-box/justifycontent', component: JustifycontentComponent  },
+  {path: '/flex-box/alignitems', component: AlignitemsComponent  },
+  {path: '/flex-box/flexwrap', component: FlexwrapComponent   },
+  {path: '/flex-box/aligncontent', component: AligncontentComponent   },
+  {path: '/flex-box/gap', component: GapComponent   }
 ];
 
 @NgModule({
